@@ -1,14 +1,14 @@
 # iotsocialfitness
 
 # Table of contents
-1. [Motivation](#motivation)
+1. [DISH IoT Hackathon Rules](#iotrules)
+2. [Social Fitness Motivation](#socialfitness)
+3. [Installation](#installation)
+4. [Requirements](#requirements)
+5. [Installation Steps](#installationsteps)
+6. [API Documentation](#apidocumentation)
 
-2. [Installation](#installation)
-3. [Requirements](#requirements)
-4. [Installation Steps](#installationsteps)
-5. [API Documentation](#apidocumentation)
-
-## Motivation <a name="motivation"></a>
+## DISH IoT Hackathon Rules <a name="iotrules"></a>
 
 In February 2018, Dish Network hosted a two-day IoT Hackathon for 10 teams at their
 Meridian campus headquarters in Englewood, CO; the goal was to inspire Dish employees
@@ -36,8 +36,49 @@ each team was to "come up with a working demo of a thing that senses or acts(or
   * Innovation
   * Utility
   * Presentation
-  
 
+## Social Fitness Motivation <a name="socialfitness"></a>
+
+"We live in the most technologically connected age in the history of civilization,
+yet rates of loneliness have doubled since the 1980s."
+                                                -Vivek Murthy, US Surgeon General
+
+"An employee's work loneliness triggers emotional withdrawal from their organization."
+                                                -INC, November 2017
+
+"67% of US workers are NOT engaged at work.  Low-engagement companies have 41% higher
+absenteeism, 59% higher turnover, 40% more defects, and 21% lower profitability."
+                                                -2017 Gallup State of the American Workforce
+
+Considering this research and the fact that DISH's executives created a 2018 KPI
+to focus on workplace engagement, our team chose to create an IoT product that would
+facilitate physical human conversations that connect people and create social capital.
+But how do you do this using sensors, a Raspberry Pi, and an Alexa?  
+
+If we were going to facilitate social interactions, when and how would we do that?
+Realizing that employees most naturally take breaks from their work to go to the
+bathroom or refill their coffee cup, we chose to program sensors that would measure
+employees' coffee cups; when an employee's coffee cup was empty, Alexa would tell
+him/her to go meet another employee, whose coffee cup was also flagged as empty,
+at a specific location to refill their coffee and socialize with each other.  In
+order to do this, we created two prototype coffee cups that each had a Raspberry
+Pi and ultrasonic sensor attached at the top.
+
+![Prototypes page](images/prototypes.jpg) 
+
+The Raspberry Pi was programmed to
+measure the depth of the coffee cups every 20 seconds;
+
+
+
+Technology is making us lonelier and less engaged at work, which results in much
+higher turnover, lower quality of work, and less profit.  
+
+  2. [Social Fitness Motivation](#socialfitness)
+  3. [Installation](#installation)
+  4. [Requirements](#requirements)
+  5. [Installation Steps](#installationsteps)
+  6. [API Documentation](#apidocumentation)
 
 2. [Data](#data)
 3. [Feature Engineering](#feature_engineering)
